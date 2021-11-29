@@ -5,7 +5,7 @@ you can try using nmap  """
 
 well_known_port = [443,80,21,22,23,53,445,139,25,110]
 IP = int(input("Enter ip address: "))
-# YOU CAN USE IT FOR SCAN LOCALHOST OR WHAT EVER
+# YOU CAN USE IT FOR SCAN LOCALHOST OR WHATEVER
 for PORT in well_known_port:
     try:
         connection = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
